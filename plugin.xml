@@ -21,9 +21,9 @@
     </platform>
 
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="CFBundleName">
+        <!-- <config-file target="*-Info.plist" parent="CFBundleName">
             <string>$APP_NAME</string>
-        </config-file>
+        </config-file> -->
         <config-file target="*-Info.plist" parent="CFBundleDisplayName">
             <string>$APP_NAME</string>
         </config-file>
